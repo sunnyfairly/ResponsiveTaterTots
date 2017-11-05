@@ -72,7 +72,7 @@ html {
   font-size: 16px;
 }
 
-@media only screen and (min-device-width: 320px) and (min-width: 320px) and (max-device-width: 768px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   /*Gathering of all Handheld Partials and Variables*/
   /*Gathering of all Variables (Relative to Handheld Devices)*/
   /*Color Variables (Relative to Handheld Devices) Listed by Section*/
@@ -142,7 +142,7 @@ html {
     color: #f2f2f2;
   }
 }
-@media only screen and (min-device-width: 768px) and (min-width: 768px) and (max-device-width: 1200px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   /*Gathering of all Handheld Partials and Variables*/
   /*Gathering of all Variables (Relative to Tablet Devices)*/
   /*Color Variables (Relative to Tablet Devices)*/
@@ -233,7 +233,7 @@ html {
     color: #be1902;
   }
 }
-@media only screen and (min-device-width: 1200px) and (min-width: 1200px) and (max-device-width: 2400px) and (max-width: 2400px) {
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
   /*Gathering of all Desktop Partials and Variables*/
   /*Gathering of all Variables (Relative to Desktop Devices)*/
   /*Color Variables (Relative to Desktop Devices)*/
