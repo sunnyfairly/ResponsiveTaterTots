@@ -233,7 +233,7 @@ html {
     color: #be1902;
   }
 }
-@media only screen and (min-device-width: 1200px) and (max-device-width: 1500px) {
+@media only screen and (min-device-width: 1200px) and (max-device-width: 2400px) {
   /*Gathering of all Desktop Partials and Variables*/
   /*Gathering of all Variables (Relative to Desktop Devices)*/
   /*Color Variables (Relative to Desktop Devices)*/
