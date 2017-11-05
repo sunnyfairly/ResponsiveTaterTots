@@ -1,0 +1,19 @@
+/*Main Body Styles Relative to Desktop Devices*/
+span {
+	display: block;
+	width: 100%;
+	min-height: 10rem;
+}
+span {
+	display: inline-block;
+}
+.bodyBox {
+	width: 150px;
+	height: 60px;
+	display: block;
+	padding: 5px 5px;
+	margin: 0 auto;
+	background-color: $LightGrey;
+	border: 2px solid $IconRed;
+	color: $SwissRed;
+}

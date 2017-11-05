@@ -1,0 +1,23 @@
+/*Header Styles Relative to Handheld Devices*/
+header {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	min-height: 10rem;
+}
+
+
+.headerBox {
+	width: 150px;
+	height: 20%;
+	padding: 5px 5px;
+	display: block;
+	margin: 0 auto;
+	background-color: $IconRed;
+	border: blue;
+	color: $LightGrey;
+}
+
+.navBar {
+	visibility: hidden;
+}

@@ -1,0 +1,17 @@
+/*Main Body Styles Relative to Tablet Devices*/
+span {
+	display: block;
+	width: 100%;
+	min-height: 10rem;
+}
+
+.bodyBox {
+	width: 150px;
+	height: 60px;
+	padding: 5px 5px;
+	display: block;
+	margin: 0 auto;
+	background-color: $Snow;
+	border: 2px solid black;
+	color: $SwissRed;
+}

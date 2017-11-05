@@ -1,0 +1,331 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/screen.scss */
+html {
+  font-size: 16px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  /*Gathering of all Handheld Partials and Variables*/
+  /*Gathering of all Variables (Relative to Handheld Devices)*/
+  /*Color Variables (Relative to Handheld Devices) Listed by Section*/
+  /*Font Variables (Relative to Handheld Devices) listed by section*/
+  /*Gathering of all partials (Relative to Handheld Devices)*/
+  /*Header Styles Relative to Handheld Devices*/
+  /* line 2, ../sass/handheldPartials/_HHheader.scss */
+  header {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 10rem;
+  }
+
+  /* line 10, ../sass/handheldPartials/_HHheader.scss */
+  .headerBox {
+    width: 150px;
+    height: 20%;
+    padding: 5px 5px;
+    display: block;
+    margin: 0 auto;
+    background-color: #CC0000;
+    border: blue;
+    color: #f2f2f2;
+  }
+
+  /* line 21, ../sass/handheldPartials/_HHheader.scss */
+  .navBar {
+    visibility: hidden;
+  }
+
+  /*Main Body Styles Relative to Handheld Devices*/
+  /* line 2, ../sass/handheldPartials/_HHmainBody.scss */
+  span {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+  }
+
+  /* line 7, ../sass/handheldPartials/_HHmainBody.scss */
+  .bodyBox {
+    width: 150px;
+    height: 20%;
+    padding: 5px 5px;
+    display: block;
+    margin: 0 auto;
+    background-color: #CC0000;
+    color: #f2f2f2;
+  }
+
+  /*Footer Styles Relative to Handheld Devices*/
+  /* line 2, ../sass/handheldPartials/_HHfooter.scss */
+  footer {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+  }
+
+  /* line 7, ../sass/handheldPartials/_HHfooter.scss */
+  .footerBox {
+    width: 150px;
+    height: 20%;
+    padding: 5px 5px;
+    display: block;
+    margin: 0 auto;
+    background-color: #CC0000;
+    color: #f2f2f2;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1200px) {
+  /*Gathering of all Handheld Partials and Variables*/
+  /*Gathering of all Variables (Relative to Tablet Devices)*/
+  /*Color Variables (Relative to Tablet Devices)*/
+  /*Font Variables (Relative to Tablet Devices)*/
+  /*Gathering of all partials (Relative to Tablet Devices)*/
+  /*Header Styles Relative to Tablet Devices*/
+  /* line 2, ../sass/tabletPartials/_Theader.scss */
+  header {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+    position: relative;
+  }
+
+  /* line 9, ../sass/tabletPartials/_Theader.scss */
+  .headerBox {
+    width: 150px;
+    height: 60px;
+    padding: 5px 5px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    color: #be1902;
+  }
+
+  /* line 22, ../sass/tabletPartials/_Theader.scss */
+  .navBar {
+    width: 300px;
+    height: 60px;
+    padding: 5px 5px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    color: #be1902;
+  }
+  /* line 33, ../sass/tabletPartials/_Theader.scss */
+  .navBar ul li {
+    display: inline-block;
+    width: 30%;
+    min-height: 30px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  /*Main Body Styles Relative to Tablet Devices*/
+  /* line 2, ../sass/tabletPartials/_TmainBody.scss */
+  span {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+  }
+
+  /* line 8, ../sass/tabletPartials/_TmainBody.scss */
+  .bodyBox {
+    width: 150px;
+    height: 60px;
+    padding: 5px 5px;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    color: #be1902;
+  }
+
+  /*Footer Styles Relative to Tablet Devices*/
+  /* line 2, ../sass/tabletPartials/_Tfooter.scss */
+  footer {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+  }
+
+  /* line 7, ../sass/tabletPartials/_Tfooter.scss */
+  .footerBox {
+    width: 150px;
+    height: 20%;
+    padding: 5px 5px;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    color: #be1902;
+  }
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1500px) {
+  /*Gathering of all Desktop Partials and Variables*/
+  /*Gathering of all Variables (Relative to Desktop Devices)*/
+  /*Color Variables (Relative to Desktop Devices)*/
+  /*Font Variables (Relative to Desktop Devices)*/
+  /*Gathering of all partials (Relative to Desktop Devices)*/
+  /*Header Styles Relative to Desktop Devices*/
+  /* line 2, ../sass/desktopPartials/_DTheader.scss */
+  header {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+    position: relative;
+  }
+
+  /* line 9, ../sass/desktopPartials/_DTheader.scss */
+  .headerBox {
+    width: 150px;
+    height: 60px;
+    padding: 5px 5px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    background-color: #f2f2f2;
+    border: 2px solid #CC0000;
+    color: #be1902;
+  }
+
+  /* line 22, ../sass/desktopPartials/_DTheader.scss */
+  .navBar {
+    width: 300px;
+    height: 60px;
+    padding: 5px 5px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    background-color: #f2f2f2;
+    border: 2px solid #CC0000;
+    color: #be1902;
+  }
+  /* line 33, ../sass/desktopPartials/_DTheader.scss */
+  .navBar ul li {
+    display: inline-block;
+    width: 30%;
+    min-height: 30px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  /*Main Body Styles Relative to Desktop Devices*/
+  /* line 2, ../sass/desktopPartials/_DTmainBody.scss */
+  span {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+  }
+
+  /* line 7, ../sass/desktopPartials/_DTmainBody.scss */
+  span {
+    display: inline-block;
+  }
+
+  /* line 10, ../sass/desktopPartials/_DTmainBody.scss */
+  .bodyBox {
+    width: 150px;
+    height: 60px;
+    display: block;
+    padding: 5px 5px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border: 2px solid #CC0000;
+    color: #be1902;
+  }
+
+  /*Footer Styles Relative to Desktop Devices*/
+  /* line 2, ../sass/desktopPartials/_DTfooter.scss */
+  footer {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+  }
+
+  /* line 7, ../sass/desktopPartials/_DTfooter.scss */
+  .footerBox {
+    width: 150px;
+    height: 20%;
+    padding: 5px 5px;
+    display: block;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border: 2px solid #CC0000;
+    color: #be1902;
+  }
+}
